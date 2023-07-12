@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Layout-Op��esParqueDosNinos.ggsk
-// Generated 2023-07-12T13:13:20
+// Generated 2023-07-12T15:36:08
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -24,6 +24,7 @@ function pano2vrSkin(player,base) {
 	player.addVariable('Filme3', 2, false);
 	player.addVariable('vis_info_popup_1', 2, false);
 	player.addVariable('uso', 2, false);
+	player.addVariable('AudioFlores', 2, false);
 	var me=this;
 	var skin=this;
 	var flag=false;
@@ -2638,6 +2639,8 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._video_popup_close_file);
 		el=me._video_screentint_file=document.createElement('div');
 		el.ggId="video_screentint_file";
+		el.ggDx=0;
+		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_rectangle ";
@@ -2645,11 +2648,11 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='background : rgba(0,0,0,0.392157);';
 		hs+='border : 0px solid #000000;';
-		hs+='bottom : -1%;';
 		hs+='cursor : pointer;';
 		hs+='height : 100%;';
+		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='right : -1.72%;';
+		hs+='top : -10000px;';
 		hs+='visibility : hidden;';
 		hs+='width : 100%;';
 		hs+='pointer-events:auto;';
@@ -2689,6 +2692,20 @@ function pano2vrSkin(player,base) {
 			player.setVariableValue('vis_video_file', false);
 		}
 		me._video_screentint_file.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=((this.ggDx * pw)/100.0 + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=((this.ggDy * ph)/100.0 + ph/2 - h/2) + 'px';
+			}
 		}
 		me.divSkin.appendChild(me._video_screentint_file);
 		el=me._video_popup_file=document.createElement('div');
@@ -3516,12 +3533,11 @@ function pano2vrSkin(player,base) {
 		me._menu_background.onclick=function (e) {
 			if (
 				(
-					((me.ggUserdata.nodeid == "inicio"))
+					((me.ggUserdata.customnodeid == "Flores"))
 				)
 			) {
-					player.playSound("Audio1","100");
+					player.playSound("Audio2","100");
 			}
-				player.playSound("Audio2","100");
 				player.playSound("Audio3","100");
 			if (
 				(
@@ -3529,6 +3545,29 @@ function pano2vrSkin(player,base) {
 				)
 			) {
 					player.stopSound("Audio1");
+			}
+			if (
+				(
+					((me.ggUserdata.customnodeid != "Flores")) && 
+					((player.getVariableValue('AudioFlores') == true))
+				)
+			) {
+					player.playSound("Audio1","100");
+			}
+			if (
+				(
+					((me.ggUserdata.customnodeid == "Flores"))
+				)
+			) {
+				player.setVariableValue('AudioFlores', true);
+			}
+			if (
+				(
+					((me.ggUserdata.customnodeid != "Flores")) && 
+					((me.ggUserdata.customnodeid != "PreFlores"))
+				)
+			) {
+				player.setVariableValue('AudioFlores', false);
 			}
 		}
 		me._menu_background.ggUpdatePosition=function (useTransition) {
@@ -8213,12 +8252,14 @@ function pano2vrSkin(player,base) {
 			if (
 				(
 					((player.getVariableValue('Opcao2') == true)) && 
-					((me.ggUserdata.nodeid == "inicio"))
+					((me.ggUserdata.customnodeid == "PreFlores")) && 
+					((player.getVariableValue('AudioFlores') == true))
 				)
 			||
 				(
 					((player.getVariableValue('Menu') == true)) && 
-					((me.ggUserdata.nodeid == "inicio"))
+					((me.ggUserdata.customnodeid == "PreFlores")) && 
+					((player.getVariableValue('AudioFlores') == true))
 				)
 			) {
 					player.playSound("Audio1","100");
@@ -8251,6 +8292,20 @@ function pano2vrSkin(player,base) {
 				)
 			) {
 					player.stopSound("Audio1");
+			}
+			if (
+				(
+					((me.ggUserdata.customnodeid == "Flores"))
+				)
+			) {
+				player.setVariableValue('AudioFlores', true);
+			}
+			if (
+				(
+					((me.ggUserdata.customnodeid == "VistaFlores"))
+				)
+			) {
+				player.setVariableValue('AudioFlores', false);
 			}
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
 		}

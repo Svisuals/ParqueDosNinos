@@ -13,7 +13,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" scaletofit="1" fovfisheye="360" tilt="90" pan="360" fov="120"/>
     </view>
-    <userdata altitude="23.00" source="" comment="" latitude="-34.530644" nodeid="node1" customnodeid="inicio" description="" title="" datetime="2023:07:11 08:59:08" tags="Fotos" longitude="-58.454508" copyright="" info="" heading="0" author=""/>
+    <userdata altitude="23.00" source="" comment="" latitude="-34.530644" nodeid="node1" customnodeid="" description="" title="" datetime="2023:07:11 08:59:08" tags="Fotos" longitude="-58.454508" copyright="" info="" heading="0" author=""/>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" border="1" borderradius="1" textalpha="1" borderalpha="1" backgroundalpha="1" enabled="1" backgroundcolor="0xffffff" background="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000"/>
       <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
@@ -229,7 +229,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" scaletofit="1" fovfisheye="360" tilt="90" pan="360" fov="120"/>
     </view>
-    <userdata source="" comment="" latitude="" nodeid="node8" customnodeid="" description="" title="" datetime="2023:07:11 08:58:15" tags="Fotos" longitude="" copyright="" info="" heading="0" author=""/>
+    <userdata source="" comment="" latitude="" nodeid="node8" customnodeid="VistaFlores" description="" title="" datetime="2023:07:11 08:58:15" tags="Fotos" longitude="" copyright="" info="" heading="0" author=""/>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" border="1" borderradius="1" textalpha="1" borderalpha="1" backgroundalpha="1" enabled="1" backgroundcolor="0xffffff" background="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000"/>
       <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
@@ -320,7 +320,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" scaletofit="1" fovfisheye="360" tilt="90" pan="360" fov="120"/>
     </view>
-    <userdata source="" comment="" latitude="" nodeid="node11" customnodeid="" description="" title="" datetime="2023:07:11 08:57:52" tags="Fotos" longitude="" copyright="" info="" heading="0" author=""/>
+    <userdata source="" comment="" latitude="" nodeid="node11" customnodeid="PreFlores" description="" title="" datetime="2023:07:11 08:57:52" tags="Fotos" longitude="" copyright="" info="" heading="0" author=""/>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" border="1" borderradius="1" textalpha="1" borderalpha="1" backgroundalpha="1" enabled="1" backgroundcolor="0xffffff" background="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000"/>
       <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
@@ -356,7 +356,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" border="1" borderradius="1" textalpha="1" borderalpha="1" backgroundalpha="1" enabled="1" backgroundcolor="0xffffff" background="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000"/>
       <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot description="" title="" tilt="0.26" pan="-151.02" id="Point01" target="-155.0/0.0/70.0" url="{node11}" skinid="ht_node"/>
+      <hotspot description="" title="PreFlores" tilt="0.35" pan="-151.38" id="PrevioFlores" target="-155.0/0.0/70.0" url="{node11}" skinid="ht_node"/>
       <hotspot description="" title="" tilt="9.39" pan="-353.67" id="Filme3" target="" url="media/20230701_171917_318.mp4" skinid="ht_video_file"/>
     </hotspots>
     <media>
