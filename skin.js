@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Layout-Op��esParqueDosNinos.ggsk
-// Generated 2023-07-12T12:29:59
+// Generated 2023-07-12T13:13:20
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -3514,7 +3514,13 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._menu_background.onclick=function (e) {
-				player.playSound("Audio1","100");
+			if (
+				(
+					((me.ggUserdata.nodeid == "inicio"))
+				)
+			) {
+					player.playSound("Audio1","100");
+			}
 				player.playSound("Audio2","100");
 				player.playSound("Audio3","100");
 			if (
@@ -5079,7 +5085,7 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._unmute.onclick=function (e) {
-			player.setVolume("_main",1);
+			player.setVolume("_main",0.8);
 			me._unmute.style[domTransition]='none';
 			me._unmute.style.visibility='hidden';
 			me._unmute.ggVisible=false;
@@ -8206,11 +8212,13 @@ function pano2vrSkin(player,base) {
 			player.openNext(me.hotspot.url,me.hotspot.target);
 			if (
 				(
-					((player.getVariableValue('Opcao2') == true))
+					((player.getVariableValue('Opcao2') == true)) && 
+					((me.ggUserdata.nodeid == "inicio"))
 				)
 			||
 				(
-					((player.getVariableValue('Menu') == true))
+					((player.getVariableValue('Menu') == true)) && 
+					((me.ggUserdata.nodeid == "inicio"))
 				)
 			) {
 					player.playSound("Audio1","100");

@@ -13,7 +13,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" scaletofit="1" fovfisheye="360" tilt="90" pan="360" fov="120"/>
     </view>
-    <userdata altitude="23.00" source="" comment="" latitude="-34.530644" nodeid="node1" customnodeid="" description="" title="" datetime="2023:07:11 08:59:08" tags="Fotos" longitude="-58.454508" copyright="" info="" heading="0" author=""/>
+    <userdata altitude="23.00" source="" comment="" latitude="-34.530644" nodeid="node1" customnodeid="inicio" description="" title="" datetime="2023:07:11 08:59:08" tags="Fotos" longitude="-58.454508" copyright="" info="" heading="0" author=""/>
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" border="1" borderradius="1" textalpha="1" borderalpha="1" backgroundalpha="1" enabled="1" backgroundcolor="0xffffff" background="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000"/>
       <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff"/>
@@ -23,7 +23,7 @@
       <sound level="1.000" pansize="10.000" startmutedmobile="0" mode="2" nodechangekeep="0" tilt="-4.640" tiltsize="10.000" pan="-355.010" id="Element01" ambientlevel="0.000" loop="-1" field="90.000">
         <source url="media/AudioComeço.mp3"/>
       </sound>
-      <sound level="0.300" pansize="10.000" startmutedmobile="0" mode="2" nodechangekeep="1" tilt="22.720" tiltsize="10.000" pan="-331.540" id="Audio1" ambientlevel="0.000" loop="-1" field="90.000">
+      <sound level="0.300" pansize="10.000" startmutedmobile="0" mode="2" nodechangekeep="1" tilt="22.810" tiltsize="10.000" pan="-331.540" id="Audio1" ambientlevel="0.000" loop="-1" field="90.000">
         <source url="media/Celebration.mp3"/>
       </sound>
       <sound level="1.000" pansize="10.000" startmutedmobile="0" mode="2" nodechangekeep="0" tilt="26.850" tiltsize="10.000" pan="-3.950" id="Element01" ambientlevel="0.000" loop="-1" field="90.000">
