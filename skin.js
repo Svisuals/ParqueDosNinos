@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Layout-Op��esParqueDosNinos.ggsk
-// Generated 2023-07-12T10:19:16
+// Generated 2023-07-12T11:11:32
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -6966,6 +6966,31 @@ function pano2vrSkin(player,base) {
 		me._instrues_de_uso.onclick=function (e) {
 				player.playStopSound("Element01","1");
 			player.setVolume("_main",1);
+				player.stopSound("Audio1");
+				player.stopSound("Audio2");
+			if (me._popup_video_file.ggApiPlayer) {
+				if (me._popup_video_file.ggApiPlayerType == 'youtube') {
+					let youtubeMediaFunction = function() {
+						me._popup_video_file.ggApiPlayer.pauseVideo();
+						me._popup_video_file.ggApiPlayer.seekTo(0);
+					};
+					if (me._popup_video_file.ggApiPlayerReady) {
+						youtubeMediaFunction();
+					} else {
+						let youtubeApiInterval = setInterval(function() {
+							if (me._popup_video_file.ggApiPlayerReady) {
+								clearInterval(youtubeApiInterval);
+								youtubeMediaFunction();
+							}
+						}, 100);
+					}
+				} else if (me._popup_video_file.ggApiPlayerType == 'vimeo') {
+					me._popup_video_file.ggApiPlayer.pause();
+					me._popup_video_file.ggApiPlayer.setCurrentTime(0);
+				}
+			} else {
+				player.stopSound("popup_video_file");
+			}
 		}
 		me._instrues_de_uso.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
