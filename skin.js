@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Layout-Op��esParqueDosNinos.ggsk
-// Generated 2023-07-14T12:43:28
+// Generated 2023-07-14T13:25:56
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);

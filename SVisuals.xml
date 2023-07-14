@@ -20,14 +20,11 @@
       <hotspot id="Point01" description="" tilt="-2.11" title="" pan="-5.63" target="" skinid="ht_node" url="{node2}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
       <sound level="0.300" id="Audio1" nodechangekeep="1" loop="-1" tilt="22.810" pansize="10.000" startmutedmobile="0" pan="-331.540" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
         <source url="media/Celebration.mp3"/>
-      </sound>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="26.850" pansize="10.000" startmutedmobile="0" pan="-3.950" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -56,8 +53,8 @@
       <hotspot id="Point02" description="" tilt="-3.24" title="" pan="-149.47" target="-142.0/0.0/70.0" skinid="ht_node" url="{node1}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -86,8 +83,8 @@
       <hotspot id="Point02" description="" tilt="1.5" title="" pan="-162.98" target="-156.0/0.0/70.0" skinid="ht_node" url="{node2}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -116,8 +113,8 @@
       <hotspot id="Point02" description="" tilt="0.08" title="" pan="-212.3" target="-152.0/0.0/70.0" skinid="ht_node" url="{node3}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -146,8 +143,8 @@
       <hotspot id="Point02" description="" tilt="2.08" title="" pan="-175.33" target="145.0/0.0/70.0" skinid="ht_node" url="{node4}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -177,8 +174,8 @@
       <hotspot id="Filme2" description="" tilt="-0.5" title="" pan="0.23" target="" skinid="ht_video_file" url="media/20230701_170604_751.mp4"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -207,8 +204,8 @@
       <hotspot id="Point02" description="" tilt="3.98" title="" pan="-137.31" target="-148.0/-2.0/70.0" skinid="ht_node" url="{node6}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -238,8 +235,8 @@
       <hotspot id="Point03" description="" tilt="1.22" title="" pan="-283.1" target="0.0/0.0/70.0" skinid="ht_node" url="{node11}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -268,8 +265,8 @@
       <hotspot id="Point02" description="" tilt="-1.08" title="" pan="-156.8" target="-128.0/0.0/70.0" skinid="ht_node" url="{node8}"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -298,8 +295,8 @@
       <hotspot id="Imagem1" description="" tilt="4.75" title="" pan="-301.95" target="" skinid="ht_image" url="images/e81b3fed4e84f274cf5a0a423cbeff43_-1.jpg"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -330,8 +327,8 @@
       <hotspot id="Info" description="&#xa;A obra é inspirada na cor das árvores de ceibo em flor. Sobre sua gênese, Propato conta a El ojo del Arte que &quot;aconteceu a conjunção de eu já estar trabalhando com um material vermelho, o fio de nylon, e enquanto estava contemplando os ceibos em flor diante da imensidão do Rio da Prata no Parque dos Niños, surgiu em mim o desejo de criar uma obra alimentada por essa intensidade ígnea que os ceibos oferecem. Nestes momentos, gosto de escrever espécies de haikus e, neste caso, foi: 'Mil flores do ceibo sonham em fazer parte de uma flor vermelha gigante, como o sol que inaugura o dia, a partir do horizonte do rio'&quot;" tilt="-13.67" title="" pan="-11.85" target="" skinid="ht_info" url=""/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
     </media>
     <transition blendcolor="0x000000" type="crossdissolve" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" enabled="1" blendtime="1" zoomout="0" softedge="0" zoomspeed="2" zoomafteroutfov="20"/>
@@ -360,8 +357,8 @@
       <hotspot id="Filme3" description="" tilt="9.39" title="" pan="-353.67" target="" skinid="ht_video_file" url="media/20230701_171917_318.mp4"/>
     </hotspots>
     <media>
-      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="-4.640" pansize="10.000" startmutedmobile="0" pan="-355.010" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
-        <source url="media/AudioComeço.mp3"/>
+      <sound level="1.000" id="Element01" nodechangekeep="0" loop="-1" tilt="19.960" pansize="10.000" startmutedmobile="0" pan="-349.300" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
+        <source url="media/Audio2Começo.mp3"/>
       </sound>
       <sound level="0.300" id="Audio2" nodechangekeep="0" loop="-1" tilt="23.200" pansize="10.000" startmutedmobile="0" pan="-334.670" mode="2" tiltsize="10.000" ambientlevel="0.000" field="90.000">
         <source url="media/Realizer.mp3"/>
