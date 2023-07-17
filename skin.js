@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: Layout-Op��esParqueDosNinos.ggsk
-// Generated 2023-07-17T11:22:16
+// Generated 2023-07-17T11:53:59
 
 function pano2vrSkin(player,base) {
 	player.addVariable('BASICO', 2, false);
@@ -25,7 +25,7 @@ function pano2vrSkin(player,base) {
 	player.addVariable('vis_info_popup_1', 2, false);
 	player.addVariable('uso', 2, false);
 	player.addVariable('AudioFlores', 2, false);
-	player.addVariable('UA_ID', 0, "267628108");
+	player.addVariable('UA_ID', 0, "277880288");
 	player.addVariable('UA_category', 0, "Parque Dos Ni\xf1os");
 	var me=this;
 	var skin=this;
